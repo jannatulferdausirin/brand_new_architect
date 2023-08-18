@@ -1,0 +1,77 @@
+/* all common css start */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* all common css end */
+
+/* banner css start here */
+.banner {
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overly {
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  padding: 350px;
+  background-color: rgba(0, 0, 0, 0.406);
+}
+.nav_bar {
+  font-family: "Noto Serif", serif;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(26, 22, 22);
+  position: relative;
+}
+.ul,
+li a:hover {
+  color: #f82f35;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+#logo a {
+  color: #f82f35;
+  font-size: 30px;
+  font-family: verdana;
+  font-weight: 700px;
+  position: absolute;
+  left: 2%;
+  top: 8%;
+}
+.logo_jf {
+  color: #ffd31f;
+}
+ul,
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+ul,
+li a {
+  text-decoration: none;
+  color: #ffd31f;
+  padding: 10px;
+}
+.overly h1 {
+  color: #ffd31f;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.crimson {
+  color: #f82f35;
+}
+.overly p {
+  color: aliceblue;
+}
+.overly button {
+  font-family: "Noto Serif", serif;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #f82f35;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 2px solid #ffd31f;
+}
+/* banner css end here */
